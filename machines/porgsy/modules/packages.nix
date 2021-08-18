@@ -6,15 +6,10 @@
   };
 
   environment.systemPackages = with pkgs; [
-    # Browser
-    firefox google-chrome plasma-browser-integration
-    tor-browser-bundle-bin
-
     # KDE apps
     filelight
     kate
     kcolorchooser
-    kdeconnect
     okular
 
     # Desktop apps
@@ -23,23 +18,21 @@
     gimp
     gnome.seahorse
     gparted
+    hexchat
     inkscape
-    nextcloud-client
     spotify
     vscode
 
-    # Communication
-    discord
-    element-desktop
-    tdesktop
-
-    # Mail client
-    thunderbird birdtray
+    # Libraries
+    llvm
+    openssl
 
     # Tools
     dnsutils
+    file
     gitFull
     gnome.libsecret
+    gnupg
     htop
     nix-index
     vim

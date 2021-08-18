@@ -9,6 +9,7 @@
     ../../users/moritz.nix
 
     # Modules
+    ./modules/environment.nix
     ./modules/i18n.nix
     ./modules/networking.nix
     ./modules/firewall.nix
